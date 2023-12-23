@@ -17,6 +17,10 @@ output "aft_management_account_id" {
   value = var.aft_management_account_id
 }
 
-output "region" {
+output "ct_home_region" {
   value = var.ct_home_region
+}
+
+output "tf_backend_secondary_region" {
+  value = var.tf_backend_secondary_region
 }
